@@ -2,10 +2,11 @@
 import { projects } from '../projects'
 import { Project } from './Project'
 
-export const Projects = () => {
+export const Projects = ({portfolioRef}) => {
 
   return (
-    <div className="projects" id="projects">
+    <div className="projects" ref={portfolioRef}>
+      <br />
       <br />
         <h2>PORTFOLIO</h2>
         <hr />

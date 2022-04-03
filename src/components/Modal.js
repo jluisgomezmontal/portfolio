@@ -1,26 +1,9 @@
 import Particles from "react-tsparticles";
 
 
-export const Modal = () => {
-  const handleClick = e => {
-    e.preventDefault();
-    const target = e.target.getAttribute('href');
-    const element = document.querySelector(target).offsetTop;
-    console.log(target)
-    console.log(element)
-    if (target === '#home') {
-      window.scrollTo({
-        left: 0,
-        top: element
-      })
-    }else{
-       window.scrollTo({
-        left: 0,
-        top: element + 630
-      })
-    }    
-  }
-    const particlesInit = (main) => {
+export const Modal = ({homeRef,headerClick}) => {
+
+  const particlesInit = (main) => {
         console.log(main);
     
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -146,7 +129,7 @@ export const Modal = () => {
         "retina_detect": false
       }}
     />
-        <div id="home"  className="modal">
+        <div ref={homeRef}  className="modal">
             
             <div>
                 <h3>
@@ -155,7 +138,7 @@ export const Modal = () => {
                 I'm a front-end web developer.<br/>
                 </h3>
             
-                  <a onClick={handleClick} href="#about">View my work</a>                    
+                  <a onClick={headerClick}>View my work</a>                    
 
             </div>
         </div>

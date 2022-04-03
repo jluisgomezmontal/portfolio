@@ -9,7 +9,7 @@ export const projects = [
     {
         name: 'SearchBar App',
         img: 'https://i.ibb.co/2hgKJgP/searchbar.jpg',
-        description: 'App with a search bar connected to an API, you can search events in any city in USA',
+        description: 'App with a search bar connected to an API, you can search events in any city in USA.',
         github: 'https://github.com/jluisgomezmontal/gametime-test',
         hosted: 'https://gametimetest.netlify.app/',
     },
@@ -22,9 +22,16 @@ export const projects = [
     },
     {
         name: 'GifExpertApp',
-        img: 'https://i.ibb.co/HhVq93M/giftexpertapp.jpg',
+        img: 'https://i.ibb.co/SJx8j5s/Whats-App-Image-2022-04-03-at-2-59-53-PM.jpg',
         description: 'App where you can search gifs with the Giphy API.',
         github: 'https://github.com/jluisgomezmontal/GifExpertAppbyJLGM',
         hosted: 'https://buscadordegifsbyjlgm.netlify.app/',
+    },
+    {
+        name: 'PhoneBook',
+        img: 'https://i.ibb.co/nQztdNX/Whats-App-Image-2022-04-03-at-3-04-26-PM.jpg',
+        description: 'Book Phone where you can add names, last names and cell number, created with React and useContext.',
+        github: 'https://github.com/jluisgomezmontal/phone-phook',
+        hosted: 'https://phonebookbyjlgm.netlify.app/',
     },
 ];

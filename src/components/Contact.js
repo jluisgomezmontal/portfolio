@@ -1,9 +1,10 @@
 import { SocialMedia } from './SocialMedia'
 
 
-export const Contact = () => {
+export const Contact = ({contactRef}) => {
   return (
-    <div id="contact" className="contact" >
+    <div ref={contactRef} className="contact" >
+        <br />
         <br />
         <h2>Contact</h2>
         <hr />

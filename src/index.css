@@ -5,14 +5,19 @@
   --gray: #E1E8EB;
   --white: #FFFFFF;
 }
+a{
+  cursor: pointer;
+}
 html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   font-size: 62.5%;
   background-color: var(--gray);
+}
+*{
+  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
-
 *,
 *:before,
 *:after {
@@ -85,7 +90,9 @@ hr{
   text-transform: uppercase;
   transition: .3s ease;
 }
-
+.active{
+  color: var(--primary);
+}
 .navbar a:hover {
   color: var(--primary);
 }
@@ -93,6 +100,9 @@ hr{
   font-size: 5rem;
   color: var(--primary);
   font-weight: bold;
+  position: fixed; /* Set the navbar to fixed position */
+  right: 0; /* Position the navbar at the top of the page */
+  bottom: 0; /* Position the naof the page */
 }
 
 
@@ -155,6 +165,9 @@ hr{
 }
 
 @media (min-width: 900px) {
+  #arrow{
+    font-size: 5rem;
+  }
   .navbar{
     height: 50px;
   }

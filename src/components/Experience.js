@@ -1,7 +1,9 @@
-export const Experience = () => {
+export const Experience = ({experienceRef}) => {
+  
   return (
-    <div className="experience" id="experience">
-      <br />
+    <div ref={experienceRef} className="experience">
+        <br />
+        <br />
         <h2>Experience</h2>
         <hr />
         <h3>Tata Consultancy Services <span>|</span> 2021- Present</h3>
