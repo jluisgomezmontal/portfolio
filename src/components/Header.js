@@ -14,7 +14,7 @@ export const Header = ({ headerRef }) => {
                     <p>
                         I'm a computer systems engineer, self-taught and constantly learning, passionate about new technologies.
                     </p>
-                    <a target="_blank" without rel="noreferrer" href="https://drive.google.com/file/d/1nlol2WV4PeJyANAUyjly7Linfjui6lkg/view?usp=sharing" >Download C.V.</a>
+                    <a target="_blank" without rel="noreferrer" href="https://drive.google.com/file/d/1foUU5uUf451qamgQr939WDa3iMOzuibE/view?usp=sharing" >Download C.V.</a>
                 </div>
             </div>
         </div>
