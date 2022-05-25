@@ -9,6 +9,7 @@ import { Projects } from './components/Projects'
 
 export const PortFolioApp = () => {
 
+  // portfolio updated
   const experienceRef = useRef()
   const headerRef = useRef()
   const homeRef = useRef()
@@ -36,7 +37,7 @@ export const PortFolioApp = () => {
     e.preventDefault()
     contactRef.current.scrollIntoView({ behavior: 'smooth' })
   }
-  
+
   return (
     <div>
       <Modal
